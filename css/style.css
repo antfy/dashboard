@@ -1,4 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #0077b6;
     margin: auto;
-    background-color: #0077b6;
+}
+
+.card {
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15%;
+    background-color: #ade8f4;
+}
+
+.logo {
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;
 }
