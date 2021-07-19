@@ -52,16 +52,20 @@ a > button {
     text-transform: uppercase;
 }
 
+
 /* CABEÇALHO */
 #topo {
-    height: 150px;
+    height: 125px;
+    background: #0077b6;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #title {
-    text-align: center;
-    margin-top: 20px;
-    color: #0077b6;
-    text-transform: uppercase;
+    padding-top: 15px;
+    color: #fff;
 }
 
 a:link, a:visited {
@@ -74,20 +78,17 @@ a:hover {
 }
 
 ul {
-    padding: 0;
-    text-align: center;
-    margin: 20px 0 0 30%;           /* arrumar centralização */
     list-style: none;
 }
 
 #topo ul {
-    margin-top: 20px;
+    margin: auto;
     background: #0077b6;
-    float: left;
 }
 
 #topo ul li {
-    float: left;
+    margin: 15px 0 15px 0;
+    display: inline-block;
 }
 
 #topo ul a {
@@ -96,7 +97,6 @@ ul {
     display: block;
     line-height: 2.1em;
     text-decoration: none;
-    text-transform: uppercase;
     color: #fff;
 }
 
