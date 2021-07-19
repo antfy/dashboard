@@ -12,7 +12,8 @@ body {
     background: #0077b6;
 }
 
-/* login */
+
+/* LOGIN */
 .card {
     width: 450px;
     height: 350px;
@@ -114,4 +115,36 @@ body.pacientes #navegacao a#pacientes,
 body.perfil #navegacao a#perfil {
     color: #fff;
     background: #0096c7;
+}
+
+
+/* PERFIL */
+.card-perfil-topo {
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    border-bottom: 3px #0096c7 solid;
+}
+
+.nome {
+    margin: auto;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.foto {
+    width: 75px;
+    height: 75px;
+    background-color: #0096c7;
+    border-radius: 100%;
+    text-align: center;
+    border: 4px #0077b6 solid;
+}
+
+.doutor {
+    
+    margin: 20px 0 0 20px;
+    color: #03045e;
+    text-align: center;
+    text-transform: uppercase;
 }
