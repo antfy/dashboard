@@ -37,10 +37,12 @@ input, button {
     margin-left: 50px;
     margin-bottom: 20px;
     border-radius: 35px;
+    border-style: solid;
     border-color: #0077b6;
 }
 
 .btn-entrar {
+    border-style: solid;
     background: #0077b6;
 }
 
@@ -50,22 +52,66 @@ a > button {
     text-transform: uppercase;
 }
 
-/* agenda */
-.menu {
-    width: 30%;
-    height: 100%;
-    padding: 20px 0 20px 0;
-    background: #0077b6;
+/* CABEÇALHO */
+#topo {
+    height: 150px;
 }
 
-.selected-btn {
-    width: 200px;
-    border-color: #ffffff;
-    background: #0077b6;
-}
-
-.menu-btn {
-    width: 200px;
+#title {
+    text-align: center;
+    margin-top: 20px;
     color: #0077b6;
-    background: #ffffff;
+    text-transform: uppercase;
+}
+
+a:link, a:visited {
+    color: #0077b6;
+    padding: 2px;
+}
+
+a:hover {
+    color: #03045e;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    margin: 20px 0 0 30%;           /* arrumar centralização */
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 20px;
+    background: #0077b6;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    padding: 0.5em 1.5em;
+    font-size: 0.9em;
+    display: block;
+    line-height: 2.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#topo ul .primeiro a {
+    background: #0096c7;
+}
+
+#topo ul a:hover {
+    color: #03045e;
+}
+
+body.index #navegacao a#index, 
+body.agenda #navegacao a#agenda,
+body.pacientes #navegacao a#pacientes,
+body.perfil #navegacao a#perfil {
+    color: #fff;
+    background: #0096c7;
 }
