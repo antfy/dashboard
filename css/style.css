@@ -195,6 +195,7 @@ body.perfil #navegacao a#perfil {
 }
 
 .btn-editar {
+    width: 350px;
     text-transform: uppercase;
     color: #fff;
     background-color: #0077b6;
