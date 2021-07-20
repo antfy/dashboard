@@ -39,14 +39,20 @@ input, button {
     margin-bottom: 20px;
     border-radius: 35px;
     border: 2px #0077b6 solid;
-    text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+}
+
+input {
+    padding-left: 15px;
+    outline: none;
+    color: black;
 }
 
 .btn-entrar {
     border: #0077b6 solid;
     background: #0077b6;
+    text-transform: uppercase;
 }
 
 .btn-entrar:hover {
@@ -190,12 +196,13 @@ body.perfil #navegacao a#perfil {
 
 .btn-editar {
     text-transform: uppercase;
-    color: #0077b6;
-    background-color: #fff;
-    border-color: #0077b6;
+    color: #fff;
+    background-color: #0077b6;
+    border-color: #fff;
 }
 
 .btn-editar:hover {
-    color: #fff;
-    background-color: #0077b6;
+    color: #0077b6;
+    background-color: #fff;
+    border-color: #0077b6;
 }
