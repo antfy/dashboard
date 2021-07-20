@@ -38,19 +38,21 @@ input, button {
     margin-left: 50px;
     margin-bottom: 20px;
     border-radius: 35px;
-    border-style: solid;
-    border-color: #0077b6;
+    border: 2px #0077b6 solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .btn-entrar {
-    border-style: solid;
+    border: #0077b6 solid;
     background: #0077b6;
 }
 
-a > button {
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
+.btn-entrar:hover {
+    background: #fff;
+    color: #0077b6;
+    border-color: #0077b6;
 }
 
 
@@ -144,7 +146,56 @@ body.perfil #navegacao a#perfil {
 .doutor {
     
     margin: 20px 0 0 20px;
-    color: #03045e;
+    color: #0077b6;
     text-align: center;
     text-transform: uppercase;
+}
+
+#dados {
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.tabela-dados {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#dados td, #dados th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dados tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#dados tr:hover {
+    background-color: #ddd;
+}
+
+#dados th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0077b6;
+    color: white;
+}
+
+.editar-perfil {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-editar {
+    text-transform: uppercase;
+    color: #0077b6;
+    background-color: #fff;
+    border-color: #0077b6;
+}
+
+.btn-editar:hover {
+    color: #fff;
+    background-color: #0077b6;
 }
