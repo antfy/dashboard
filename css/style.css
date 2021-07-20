@@ -16,8 +16,9 @@ body {
 /* LOGIN */
 .card {
     width: 450px;
-    height: 350px;
+    height: 375px;
     margin: auto;
+    text-align: center;
     margin-top: 10%;
     border-radius: 15%;
     background-color: #caf0f894;
@@ -26,16 +27,13 @@ body {
 .logo {
     width: 350px;
     margin: auto;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 55px;
 }
 
 input, button {
-    width: 350px;
     height: 35px;
     margin: auto;
-    margin-left: 50px;
     margin-bottom: 20px;
     border-radius: 35px;
     border: 2px #0077b6 solid;
@@ -44,12 +42,14 @@ input, button {
 }
 
 input {
+    width: 335px;
     padding-left: 15px;
     outline: none;
     color: black;
 }
 
 .btn-entrar {
+    width: 350px;
     border: #0077b6 solid;
     background: #0077b6;
     text-transform: uppercase;
