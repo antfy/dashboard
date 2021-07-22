@@ -210,3 +210,20 @@ body.perfil #navegacao a#perfil {
 
 
 /* PACIENTES */
+.card-paciente {
+    width: 375px;
+    margin: 20px;
+    border-radius: 35px;
+    border: 2px solid #0077b6;
+}
+
+.paciente-nome {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.btn-aceitar-recusar {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
