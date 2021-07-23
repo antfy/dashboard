@@ -146,7 +146,7 @@ body.perfil #navegacao a#perfil {
     background-color: #0096c7;
     border-radius: 100%;
     text-align: center;
-    border: 4px #0077b6 solid;
+    border: 3px #0077b6 solid;
 }
 
 .doutor {
@@ -210,9 +210,15 @@ body.perfil #navegacao a#perfil {
 
 
 /* PACIENTES */
+.container-pacientes {
+    margin: auto;
+    text-align: center;
+}
+
 .card-paciente {
     width: 375px;
     margin: 20px;
+    display: inline-block;
     border-radius: 35px;
     border: 2px solid #0077b6;
 }
@@ -220,10 +226,41 @@ body.perfil #navegacao a#perfil {
 .paciente-nome {
     margin: 10px 0 10px 0;
     text-align: center;
+    text-transform: uppercase;
+    color: #03045e;
+}
+
+.foto-paciente {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    background: #0096c7;
+    border-radius: 100%;
+    border: 3px solid #0077b6;
+}
+
+#dados td {
+    text-align: left;
 }
 
 .btn-aceitar-recusar {
     text-align: center;
-    margin: auto;
-    display: inline-block;
+    margin-top: 15px;
+    display: flex;
+}
+
+.btn-recusar {
+    width: 160px;
+    text-transform: uppercase;
+    color: #0077b6;
+    background-color: #fff;
+    border-color: #0077b6;
+}
+
+.btn-aceitar {
+    width: 160px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0077b6;
+    border-color: #fff;
 }
