@@ -255,6 +255,7 @@ body.perfil #navegacao a#perfil {
     color: #0077b6;
     background-color: #fff;
     border-color: #0077b6;
+    transition: 0.25s;
 }
 
 .btn-aceitar {
@@ -263,4 +264,9 @@ body.perfil #navegacao a#perfil {
     color: #fff;
     background-color: #0077b6;
     border-color: #fff;
+    transition: 0.25s;
+}
+
+.btn-recusar:hover, .btn-aceitar:hover {
+    transform: scale(1.1);
 }
