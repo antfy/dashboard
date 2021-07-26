@@ -8,18 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antfy Perfil</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Bootstrap CSS 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    -->
-    <!-- OU href: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 
 <body class="container-pages">
     <div class="container">
         <!-- CABEÇALHO -->
-        <div id="topo">
+        <header id="topo">
             <h1 id="title">Perfil</h1>
             <ul id="navegacao">
                 <li> <a id="agenda" href="agenda.html">Agenda</a> </li>
@@ -27,64 +24,61 @@
                 <li class="primeiro"> <a id="perfil" href="perfil.html">Perfil</a> </li>
                 <li> <a id="desconectar" href="index.html">Desconectar</a> </li>
             </ul>
+        </header>
+
+        
+        <!-- CARD DOUTOR -->
+        <div class="card-perfil-topo">
+            <div class="nome">
+                <div class="foto" id="foto"></div>
+                <div class="doutor">
+                    <h2>Dr. Maurício Alves Domingues</h2>
+                    <h3>Clínico Geral</h3>
+                </div>
+            </div>
+            <div id="border-card-topo"></div>
         </div>
-    </div>
     
-    <div class="card-perfil-topo">
-        <div class="nome">
-            <div class="foto"></div>
-            <div class="doutor">
-                <h2>Dr. Maurício Alves Domingues</h2>
-                <h3>Clínico Geral</h3>
+        <!-- DADOS DOUTOR -->
+        <div class="card-perfil-dados">
+            <div class="tabela-dados">
+                <table id="dados">
+                    <tr>
+                        <th>CRM</th>
+                        <td>CRMSP 19843-0</td>
+                    </tr>
+                    <tr>
+                        <th>Atendimento</th>
+                        <td>São Paulo / SP</td>
+                    </tr>
+                    <tr>
+                        <th>Convênio</th>
+                        <td>Amil, Notredame, SulAmérica</td>
+                    </tr>
+                    <tr>
+                        <th>Celular</th>
+                        <td>+55 (11) 98276-3019</td>
+                    </tr>
+                    <tr>
+                        <th>Telefone</th>
+                        <td>+55 (11) 7218-0029</td>
+                    </tr>
+                    <tr>
+                        <th>Endereço</th>
+                        <td>Avenida Lins de Vasconcelos, 1345 - Aclimação</td>
+                    </tr>
+                </table>
             </div>
         </div>
-    </div>
-
-    <div class="card-perfil-dados">
-        <div class="tabela-dados">
-            <table id="dados">
-                <tr>
-                    <th>CRM</th>
-                    <td>CRMSP 19843-0</td>
-                </tr>
-                <tr>
-                    <th>Atendimento</th>
-                    <td>São Paulo / SP</td>
-                </tr>
-                <tr>
-                    <th>Convênio</th>
-                    <td>Amil, Notredame, SulAmérica</td>
-                </tr>
-                <tr>
-                    <th>Celular</th>
-                    <td>+55 (11) 98276-3019</td>
-                </tr>
-                <tr>
-                    <th>Telefone</th>
-                    <td>+55 (11) 7218-0029</td>
-                </tr>
-                <tr>
-                    <th>Endereço</th>
-                    <td>Avenida Lins de Vasconcelos, 1345 - Aclimação</td>
-                </tr>
-            </table>
+    
+        <!-- BUTTON EDITAR PERFIL -->
+        <div class="editar-perfil">
+            <button class="btn-editar">
+                <b>Editar perfil</b>
+            </button>
         </div>
     </div>
-
-    <div class="editar-perfil">
-        <button class="btn-editar">
-            <b>Editar perfil</b>
-        </button>
-    </div>
     
-
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    -->
-    <!-- ou src: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" -->
 </body>
 </html>

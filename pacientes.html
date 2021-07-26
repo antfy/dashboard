@@ -8,18 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antfy Pacientes</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <!-- Bootstrap CSS 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    -->
-    <!-- OU href: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" -->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
 </head>
 
 <body class="container-pages">
     <div class="container">
         <!-- CABEÇALHO -->
-        <div id="topo">
+        <header id="topo">
             <h1 id="title">Pacientes</h1>
             <ul id="navegacao">
                 <li> <a id="agenda" href="agenda.html">Agenda</a> </li>
@@ -27,119 +28,231 @@
                 <li> <a id="perfil" href="perfil.html">Perfil</a> </li>
                 <li> <a id="desconectar" href="index.html">Desconectar</a> </li>
             </ul>
-        </div>
-    </div>
-    
-    <!-- CARD PACIENTE -->
-    <div class="container-pacientes">
-        <div class="card-paciente">
-            <h3 class="paciente-nome">Luciana Alves</h3>
-            <div class="foto-paciente"></div>
-            <div class="tabela-dados">
-                <table id="dados">
-                    <tr>
-                        <th>Idade</th>
-                        <td>34</td>
-                    </tr>
-                    <tr>
-                        <th>Altura</th>
-                        <td>1.68 m</td>
-                    </tr>
-                    <tr>
-                        <th>Peso</th>
-                        <td>67,5 Kg</td>
-                    </tr>
-                    <tr>
-                        <th>Descrição</th>
-                        <td>Dores de cabeça frequentes</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="btn-aceitar-recusar">
-                <button class="btn-recusar">
-                    <b>Recusar</b>
-                </button>        
-                <button class="btn-aceitar">
-                    <b>Aceitar</b>
-                </button>
-            </div>
-        </div>
+        </header>
 
-        <div class="card-paciente">
-            <h3 class="paciente-nome">Kristina Tadashi</h3>
-            <div class="foto-paciente"></div>
-            <div class="tabela-dados">
-                <table id="dados">
-                    <tr>
-                        <th>Idade</th>
-                        <td>49</td>
-                    </tr>
-                    <tr>
-                        <th>Altura</th>
-                        <td>1.63 m</td>
-                    </tr>
-                    <tr>
-                        <th>Peso</th>
-                        <td>65,0 Kg</td>
-                    </tr>
-                    <tr>
-                        <th>Descrição</th>
-                        <td>Dores nas articulações</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="btn-aceitar-recusar">
-                <button class="btn-recusar">
-                    <b>Recusar</b>
-                </button>        
-                <button class="btn-aceitar">
-                    <b>Aceitar</b>
-                </button>
-            </div>
-        </div>
         
-        <div class="card-paciente">
-            <h3 class="paciente-nome">Thiago Melano</h3>
-            <div class="foto-paciente"></div>
-            <div class="tabela-dados">
-                <table id="dados">
-                    <tr>
-                        <th>Idade</th>
-                        <td>33</td>
-                    </tr>
-                    <tr>
-                        <th>Altura</th>
-                        <td>1.73 m</td>
-                    </tr>
-                    <tr>
-                        <th>Peso</th>
-                        <td>82,3 Kg</td>
-                    </tr>
-                    <tr>
-                        <th>Descrição</th>
-                        <td>Dores musculares intensas</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="btn-aceitar-recusar">
-                <button class="btn-recusar">
-                    <b>Recusar</b>
-                </button>        
-                <button class="btn-aceitar">
-                    <b>Aceitar</b>
-                </button>
+        <!-- CAROUSEL PACIENTE -->
+        <div class="container-pacientes">
+            <div class="carrossel-filmes">
+                <div class="owl-carousel owl-theme">
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Luciana Alves</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>34</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.68 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>67,5 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores de cabeça frequentes</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Marcela Almeida</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>29</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.72 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>72,5 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores musculares</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Claudio Gomes</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>64</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.76 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>87,0 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores nas articulações</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Matheus Hashimoto</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>22</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.83 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>89,0 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores no pescoço</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Bruna Garcia</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.60 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>59,5 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores no joelho</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CARD PACIENTE -->
+                    <div class="card-paciente">
+                        <h3 class="paciente-nome">Julia Melina</h3>
+                        <div class="foto-paciente"></div>
+                        <div class="tabela-dados">
+                            <table id="dados">
+                                <tr>
+                                    <th>Idade</th>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <th>Altura</th>
+                                    <td>1.61 m</td>
+                                </tr>
+                                <tr>
+                                    <th>Peso</th>
+                                    <td>61,5 Kg</td>
+                                </tr>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <td>Dores no pulso</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn-aceitar-recusar">
+                            <button class="btn-recusar">
+                                <b>Recusar</b>
+                            </button>        
+                            <button class="btn-aceitar">
+                                <b>Aceitar</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     
     
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    -->
-    <!-- ou src: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" -->
+    
+    <!-- Owl Carousel -->
+    <script src="https://kit.fontawesome.com/6a89950214.js" crossorigin="anonymous"></script>
+    <script src="assets/owl/jquery.min.js"></script>
+    <script src="assets/owl/owl.carousel.min.js"></script>
+    <script src="assets/owl/steup.js"></script>
+
+    
 </body>
 </html>

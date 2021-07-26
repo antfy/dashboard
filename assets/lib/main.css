@@ -186,7 +186,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   }
 .fc .fc-button:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25);
+    box-shadow: 0 0 0 0.2rem #caf0f8;
   }
 .fc .fc-button:disabled {
     opacity: 0.65;
@@ -199,26 +199,26 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-button-primary {
     color: #fff;
     color: var(--fc-button-text-color, #fff);
-    background-color: #2C3E50;
-    background-color: var(--fc-button-bg-color, #2C3E50);
-    border-color: #2C3E50;
-    border-color: var(--fc-button-border-color, #2C3E50);
+    background-color: #023e8a;
+    background-color: var(--fc-button-bg-color, #023e8a);
+    border-color: #023e8a;
+    border-color: var(--fc-button-border-color, #023e8a);
   }
 .fc .fc-button-primary:hover {
     color: #fff;
     color: var(--fc-button-text-color, #fff);
-    background-color: #1e2b37;
-    background-color: var(--fc-button-hover-bg-color, #1e2b37);
-    border-color: #1a252f;
-    border-color: var(--fc-button-hover-border-color, #1a252f);
+    background-color: #03045e;
+    background-color: var(--fc-button-hover-bg-color, #03045e);
+    border-color: #03045e;
+    border-color: var(--fc-button-hover-border-color, #03045e);
   }
 .fc .fc-button-primary:disabled { /* not DRY */
     color: #fff;
     color: var(--fc-button-text-color, #fff);
-    background-color: #2C3E50;
-    background-color: var(--fc-button-bg-color, #2C3E50);
-    border-color: #2C3E50;
-    border-color: var(--fc-button-border-color, #2C3E50); /* overrides :hover */
+    background-color: #023e8a;
+    background-color: var(--fc-button-bg-color, #023e8a);
+    border-color: #023e8a;
+    border-color: var(--fc-button-border-color, #023e8a); /* overrides :hover */
   }
 .fc .fc-button-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
@@ -227,14 +227,14 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   .fc .fc-button-primary:not(:disabled).fc-button-active {
     color: #fff;
     color: var(--fc-button-text-color, #fff);
-    background-color: #1a252f;
-    background-color: var(--fc-button-active-bg-color, #1a252f);
-    border-color: #151e27;
-    border-color: var(--fc-button-active-border-color, #151e27);
+    background-color: #03045e;
+    background-color: var(--fc-button-active-bg-color, #03045e);
+    border-color: #03045e;
+    border-color: var(--fc-button-active-border-color, #03045e);
   }
 .fc .fc-button-primary:not(:disabled):active:focus,
   .fc .fc-button-primary:not(:disabled).fc-button-active:focus {
-    box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
+    box-shadow: 0 0 0 0.2rem #caf0f8;
   }
 .fc {
 
@@ -294,6 +294,8 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-toolbar-title {
     font-size: 1.75em;
     margin: 0;
+    text-transform: uppercase;
+    color: #03045e;
   }
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
     margin-left: .75em; /* space between */
@@ -427,6 +429,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-col-header-cell-cushion {
     display: inline-block; /* x-browser for when sticky (when multi-tier header) */
     padding: 2px 4px;
+    color: #03045e;
   }
 .fc .fc-bg-event,
   .fc .fc-non-business,
@@ -927,10 +930,10 @@ A VERTICAL event
 
 .fc-v-event { /* allowed to be top-level */
   display: block;
-  border: 1px solid #3788d8;
-  border: 1px solid var(--fc-event-border-color, #3788d8);
-  background-color: #3788d8;
-  background-color: var(--fc-event-bg-color, #3788d8)
+  border: 1px solid #0077b6;
+  border: 1px solid var(--fc-event-border-color, #0077b6);
+  background-color: #0077b6;
+  background-color: var(--fc-event-bg-color, #0077b6)
 
 }
 
@@ -1414,7 +1417,7 @@ A VERTICAL event
     box-sizing: content-box;
     width: 0;
     height: 0;
-    border: 5px solid #3788d8;
+    border: 5px solid #0077b6;
     border: calc(var(--fc-list-event-dot-width, 10px) / 2) solid var(--fc-event-border-color, #3788d8);
     border-radius: 5px;
     border-radius: calc(var(--fc-list-event-dot-width, 10px) / 2);

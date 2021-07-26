@@ -1,3 +1,4 @@
+/* BASE */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,10 @@ body {
     background: #0077b6;
 }
 
+.container-pages {
+    background: rgb(247, 247, 247);
+}
+
 
 /* LOGIN */
 .card {
@@ -26,10 +31,10 @@ body {
 }
 
 .logo {
-    width: 350px;
+    width: 80%;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 55px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 input, button {
@@ -49,10 +54,16 @@ input {
     color: black;
 }
 
+#input-login {
+    box-shadow: 1px 1px 5px #023e8a;
+}
+
 .btn-entrar {
     width: 350px;
     border: #0077b6 solid;
     background: #0077b6;
+    
+    box-shadow: 1px 1px 5px #023e8a;
     text-transform: uppercase;
 }
 
@@ -127,35 +138,129 @@ body.perfil #navegacao a#perfil {
 }
 
 
+/* CALENDÁRIO */
+.calendario {
+    margin: 130px 10px 10px 10px;
+}
+
+
+/* PACIENTES */
+.container-pacientes {
+    margin: auto;
+    text-align: center;
+}
+
+.card-paciente {
+    width: 375px;
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+    border-radius: 35px;
+    border: 2px solid #03045e;
+    box-shadow: 1px 1px 5px #023e8a;
+}
+
+.paciente-nome {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #03045e;
+}
+
+.foto-paciente {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    background: #0096c7;
+    border-radius: 100%;
+    border: 3px solid #03045e;
+}
+
+#dados td {
+    text-align: left;
+}
+
+.btn-aceitar-recusar {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+}
+
+.btn-recusar {
+    width: 160px;
+    text-transform: uppercase;
+    color: #0077b6;
+    background-color: #fff;
+    border-color: #0077b6;
+    box-shadow: 1px 1px 5px #023e8a;
+    transition: 0.25s;
+}
+
+.btn-aceitar {
+    width: 160px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0077b6;
+    border-color: #fff;
+    box-shadow: 1px 1px 5px #023e8a;
+    transition: 0.25s;
+}
+
+.btn-recusar:hover, .btn-aceitar:hover {
+    transform: scale(1.1);
+}
+
+carrossel-filmes {
+    margin-top: 5px;
+}
+
+.populares {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+
 /* PERFIL */
 .card-perfil-topo {
     margin: auto;
     text-align: center;
-    width: 1000px;
-    border-bottom: 3px #0096c7 solid;
+    width: 100%;
+}
+
+#border-card-topo {
+    margin: auto;
+    width: 70%;
+    border-bottom: 3px #023e8a solid;
+    box-shadow: 1px 1px 5px #023e8a;
 }
 
 .nome {
-    margin: auto;
+    margin: 20px 0 10px 0;
     padding: 10px;
     display: inline-flex;
 }
 
 .foto {
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
+    max-height: 75px;
     background-color: #0096c7;
     border-radius: 100%;
     text-align: center;
-    border: 3px #0077b6 solid;
+    border: 3px #03045e solid;
+    box-shadow: 1px 1px 5px #023e8a;
+}
+
+#foto {
+    width: 100%;
+    height: auto;
 }
 
 .doutor {
-    
     margin: 20px 0 0 20px;
-    color: #0077b6;
+    color: #023e8a;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 1px 1px 1px #023e8a;;
 }
 
 #dados {
@@ -201,79 +306,11 @@ body.perfil #navegacao a#perfil {
     color: #fff;
     background-color: #0077b6;
     border-color: #fff;
+    box-shadow: 1px 1px 5px #023e8a;
 }
 
 .btn-editar:hover {
     color: #0077b6;
     background-color: #fff;
     border-color: #0077b6;
-}
-
-
-/* PACIENTES */
-.container-pacientes {
-    margin: auto;
-    text-align: center;
-}
-
-.card-paciente {
-    width: 375px;
-    margin: 20px;
-    display: inline-block;
-    border-radius: 35px;
-    border: 2px solid #0077b6;
-}
-
-.paciente-nome {
-    margin: 10px 0 10px 0;
-    text-align: center;
-    text-transform: uppercase;
-    color: #03045e;
-}
-
-.foto-paciente {
-    width: 85px;
-    height: 85px;
-    margin: auto;
-    background: #0096c7;
-    border-radius: 100%;
-    border: 3px solid #0077b6;
-}
-
-#dados td {
-    text-align: left;
-}
-
-.btn-aceitar-recusar {
-    text-align: center;
-    margin-top: 15px;
-    display: flex;
-}
-
-.btn-recusar {
-    width: 160px;
-    text-transform: uppercase;
-    color: #0077b6;
-    background-color: #fff;
-    border-color: #0077b6;
-    transition: 0.25s;
-}
-
-.btn-aceitar {
-    width: 160px;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #0077b6;
-    border-color: #fff;
-    transition: 0.25s;
-}
-
-.btn-recusar:hover, .btn-aceitar:hover {
-    transform: scale(1.1);
-}
-
-
-/* CALENDÁRIO */
-.calendario {
-    margin: 130px 10px 10px 10px;
 }
