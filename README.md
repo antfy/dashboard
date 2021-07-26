@@ -3,6 +3,7 @@
 <p>Modelo dashboard para controle do médico.</p>
 <p><b>Linguagens:</b> HTML5, CSS3 e JavaScript</p>
 <p>Futuramente esse dashboard será inserido no projeto em ReactJS.</p>
+<p><b>Observações:</b> a pasta <code>lib</code> é para o funcionamento do FullCalendar.io</p>
 
 <hr>
 
