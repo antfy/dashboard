@@ -6,4 +6,4 @@
 
 <hr>
 
-<h3 align="center">Telas</h3>
+<h2 align="center">Telas</h2>
