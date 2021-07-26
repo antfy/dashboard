@@ -9,6 +9,7 @@
     <summary><b>Observações:</b></summary>
     <ul>
         <li>Modelo será implementado no projeto em ReactJS;</li>
+        <li><code>assets</code>: imagens, FullCalendar e OwlCarousel</li>
         <li><code>lib</code>: FullCalendar.io</li>
         <li><code>owl</code>: OwlCarousel.io</li>
     </ul>
