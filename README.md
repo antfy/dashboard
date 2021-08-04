@@ -21,7 +21,7 @@
 <hr>
 
 <h2 align="center"> :page_facing_up: Páginas </h2>
-<img src="assets/img/index.png" height="250">
+<img src="assets/img/index.png">
 <img src="assets/img/agenda.png">
 <img src="assets/img/pacientes.png">
 <img src="assets/img/perfil.png">
